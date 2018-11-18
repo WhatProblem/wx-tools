@@ -1,0 +1,17 @@
+<view class="main" style="height:{{pHeight}}px">
+  <view class="leftTabs">
+    <scroll-view scroll-y class='menuList' scroll-with-animation="true">
+      <view wx:for='{{tabsList}}' wx:key="{{item.id}}" data-id="{{item.id}}" bindtap='clickTabs' class="menuItem {{curId == item.id ? 'active': ''}}">
+        <text>{{item.name}}</text>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="rightContent">
+    <scroll-view class='food' scroll-into-view="{{toView}}" scroll-y bindscroll="scroll" scroll-with-animation="true">
+      <view wx:for='{{foodList}}' wx:key='{{item.id}}' class='foodItem' id='{{item.id}}'>
+        <view class='foodTitle'>{{item.title}}</view>
+        <view class='foodMain' wx:for='{{item.content}}' wx:for-item='one' wx:key='{{one.des}}'>{{one.des}}</view>
+      </view>
+    </scroll-view>
+  </view>
+</view>
