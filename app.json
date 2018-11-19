@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/parabola/parabola",
+    "pages/home/home",
     "pages/floorTabs/floorTabs"
   ],
   "window": {

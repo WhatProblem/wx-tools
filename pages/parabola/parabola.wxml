@@ -1,0 +1,9 @@
+<view class="box" style="height:{{pHeight}}px">
+  <view>
+    <button bindtap="handleClick">点击</button>
+  </view>
+
+  <view animation="{{animationY}}" style="position:fixed;top:{{ballY}}px;" hidden="{{!showBall}}">
+    <view class="ball" animation="{{animationX}}" style="position:fixed;left:{{ballX}}px;"></view>
+  </view>
+</view>

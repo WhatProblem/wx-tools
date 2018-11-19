@@ -1,0 +1,20 @@
+/* pages/parabola/parabola.wxss */
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box button {
+  width: 60px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.ball {
+  width: 30px;
+  height:30px;
+  background: #666;
+  border-radius: 50%;
+}
