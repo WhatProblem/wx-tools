@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/catch/catch",
     "pages/parabola/parabola",
     "pages/home/home",
     "pages/floorTabs/floorTabs"

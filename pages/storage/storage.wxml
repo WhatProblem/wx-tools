@@ -1,0 +1,5 @@
+<view class="storage">
+  <view>缓存操作</view>
+  <button bindtap="getSession">获取缓存</button>
+  <button bindtap="repSession">替换缓存</button>
+</view>

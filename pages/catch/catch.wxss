@@ -1,0 +1,25 @@
+/* pages/catch/catch.wxss */
+.catch {
+  width: 100%;
+  height: 200rpx;
+  background: #eee;
+}
+
+.scrollH {
+  width: 100%;
+  height: 200rpx;
+  white-space: nowrap;
+  border-radius: 10rpx;
+}
+
+.slideItem {
+  width: 200rpx;
+  height: 200rpx;
+  display: inline-block;
+}
+.slideItem:nth-child(odd) {
+  background: rgb(4, 183, 238);
+}
+.slideItem:nth-child(even) {
+  background: rgb(209, 6, 209);
+}
