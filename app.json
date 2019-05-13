@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/line/line",
     "pages/catch/catch",
     "pages/parabola/parabola",
     "pages/home/home",
@@ -10,5 +11,6 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
